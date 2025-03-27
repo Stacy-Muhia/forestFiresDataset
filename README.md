@@ -6,7 +6,7 @@ This project applies the **CRISP-DM (Cross-Industry Standard Process for Data Mi
 ---
 
 ## 📊 Dataset Information  
-**Source:** Algerian Forest Fires dataset / UCI Forest Fires dataset  
+**Source:** Forest Fires dataset url: https://www.kaggle.com/datasets/elikplim/forest-fires-data-set  
 
 ### **Features:**  
 - **Categorical:** `month`, `day`  

@@ -87,13 +87,15 @@ Applied different **regression models** to predict fire severity:
 ### Required Libraries:  
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-
----
+```
 ## 👥 Contributors
-1. STEPHANIE MATHENGE
-2. TERRY SAMARA
-3. STACY MUHIA
-4. JOANNA FURAHA
-5. MARGARET WANGARI
+STEPHANIE MATHENGE
 
+TERRY SAMARA
+
+STACY MUHIA
+
+JOANNA FURAHA
+
+MARGARET WANGARI
 

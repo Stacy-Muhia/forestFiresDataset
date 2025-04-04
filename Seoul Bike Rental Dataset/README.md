@@ -14,7 +14,9 @@ Source: Seoul bike rental data set url: [https://www.kaggle.com/datasets/joebeac
 
 1️⃣ Business Understanding 
 
-* **Objective:** To accurately predict the number of bikes rented on an hourly basis in Seoul, South Korea. * **Business Context:** Bike sharing systems are increasingly popular in urban areas. Accurate demand forecasting can help optimize bike availability, improve customer satisfaction, and enhance operational efficiency. * **Success Criteria:** The project will be considered successful if the developed model achieves a low Root Mean Squared Error (RMSE) and a high R-squared score, indicating accurate predictions of bike rental counts. 
+* **Objective:** To accurately predict the number of bikes rented on an hourly basis in Seoul, South Korea.
+* * **Business Context:** Bike sharing systems are increasingly popular in urban areas. Accurate demand forecasting can help optimize bike availability, improve customer satisfaction, and enhance operational efficiency.
+  *  * **Success Criteria:** The project will be considered successful if the developed model achieves a low Root Mean Squared Error (RMSE) and a high R-squared score, indicating accurate predictions of bike rental counts. 
 
  
 
@@ -23,7 +25,24 @@ Source: Seoul bike rental data set url: [https://www.kaggle.com/datasets/joebeac
 2️⃣ Data Understanding 
 
 Performed Exploratory Data Analysis (EDA): 
-* **Dataset Source:** The Seoul Bike Sharing Demand dataset, available on Kaggle: [https://www.kaggle.com/datasets/joebeachcapital/seoul-bike-sharing/data](https://www.kaggle.com/datasets/joebeachcapital/seoul-bike-sharing/data). * **Dataset Description:** The dataset contains hourly bike rental counts from December 2017 to November 2018 in Seoul, along with corresponding weather and time-related information. * **Key Features:** * **Date:** Date of the rental. * **Rented Bike Count:** The number of rented bikes (target variable). * **Hour:** The hour of the day (0-23). * **Temperature(°C):** Temperature in Celsius. * **Humidity(%):** Humidity percentage. * **Wind speed (m/s):** Wind speed in meters per second. * **Visibility (10m):** Visibility in 10-meter units. * **Dew point temperature(°C):** Dew point temperature in Celsius. * **Solar Radiation (MJ/m2):** Solar radiation in Mega Joules per square meter. * **Rainfall(mm):** Rainfall amount in millimeters. * **Snowfall (cm):** Snowfall amount in centimeters. * **Seasons:** Season of the year (Winter, Spring, Summer, Autumn). * **Holiday:** Holiday status (No Holiday, Holiday). * **Functioning Day:** Functioning day status (Yes, No). * **Initial Data Exploration:** [**Describe initial data exploration, such as summary statistics, data distributions, and initial observations.**] 
+* **Dataset Source:** The Seoul Bike Sharing Demand dataset, available on Kaggle: [https://www.kaggle.com/datasets/joebeachcapital/seoul-bike-sharing/data](https://www.kaggle.com/datasets/joebeachcapital/seoul-bike-sharing/data).
+* * **Dataset Description:** The dataset contains hourly bike rental counts from December 2017 to November 2018 in Seoul, along with corresponding weather and time-related information.
+  *  * **Key Features:**
+     *  * **Date:** Date of the rental.
+        *  * **Rented Bike Count:** The number of rented bikes (target variable).
+           *  * **Hour:** The hour of the day (0-23).
+              *  * **Temperature(°C):** Temperature in Celsius.
+                 *  * **Humidity(%):** Humidity percentage.
+                    * * **Wind speed (m/s):** Wind speed in meters per second.
+                      *  * **Visibility (10m):** Visibility in 10-meter units.
+                         *  * **Dew point temperature(°C):** Dew point temperature in Celsius.
+                            *  * **Solar Radiation (MJ/m2):** Solar radiation in Mega Joules per square meter.
+                               * * **Rainfall(mm):** Rainfall amount in millimeters.
+                                 * * **Snowfall (cm):** Snowfall amount in centimeters.
+                                   * * **Seasons:** Season of the year (Winter, Spring, Summer, Autumn).
+                                     *  * **Holiday:** Holiday status (No Holiday, Holiday).
+                                        * * **Functioning Day:** Functioning day status (Yes, No).
+                                       
 
 3️⃣ Data Preparation 
 
@@ -52,9 +71,7 @@ R² Score
 5️⃣ Evaluation 
 
 🚀 The XGBoost performed the best with a lower RMSE and a higher R² score. 
-📌 Key Factors Affecting Fire Spread: 
-✔ Temperature, humidity, and wind speed significantly impact fire spread. 
-
+ad. 
  
 
 🎨 Visualization Techniques Used 
